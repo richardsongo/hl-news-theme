@@ -1,0 +1,20 @@
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+a, .content-link {
+    cursor: pointer;
+    text-decoration: none;
+    border-color: #05a2d3;
+    color: #05a2d3;
+}
+
+a:hover {
+    border-color:#ec1c82;
+    color:#ec1c82;
+}
+
+
+/* */
+
