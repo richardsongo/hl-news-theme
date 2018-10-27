@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+
+{% block head %}
+   {{ parent() }}
+
+   <link rel="stylesheet" type="text/css" href="/development/assets/css/homepage.css" />
+
+{% endblock %}
+
+{% block content %}
+
+    {% include '_homepage/spotlight.html'   %}
+    {% include '_homepage/lateststories.html'   %}
+    {% include '_homepage/editorspicks.html'   %}
+    {% include '_homepage/voices.html'   %}
+    {% include '_homepage/moretopreads.html'   %}
+    {% include '_homepage/spotlight.html'   %}
+    {% include '_homepage/topics.html'   %}
+
+{% endblock %}
