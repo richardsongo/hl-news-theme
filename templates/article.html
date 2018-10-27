@@ -1,1 +1,37 @@
 
+{% extends "_base.html" %}
+
+{% block head %}
+ 
+    {{ parent() }}
+
+{% endblock %}
+
+{% block content %}
+
+    {% include '_partials/article/article-top-banner.html'   %}
+
+    <div class="wide-section">
+      <div class="container w-container-90 pt-5">
+
+        <div class="row">
+            <div class="col-lg-8">
+
+              {% include '_partials/article/article-content.html'   %}
+              
+              {% include '_partials/article/more-reads.html'   %}
+
+            </div>
+            <div class="col-lg-4">
+
+              {% include '_partials/article/article-sidebar.html'   %}
+
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+    {% include '_partials/article/article-bottom-banner.html'   %}
+
+{% endblock %}
