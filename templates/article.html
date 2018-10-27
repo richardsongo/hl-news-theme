@@ -1,8 +1,6 @@
-
 {% extends "_base.html" %}
 
-{% block head %}
- 
+{% block head %} 
     {{ parent() }}
 
 {% endblock %}
@@ -19,7 +17,7 @@
 
               {% include '_partials/article/article-content.html'   %}
               
-              {% include '_partials/article/more-reads.html'   %}
+              {% include '_partials/article/article-tools.html'   %}
 
             </div>
             <div class="col-lg-4">
@@ -28,6 +26,19 @@
 
             </div>
         </div>
+       
+       <div class="row">
+            <div class="col-lg-8">
+
+               {% include '_partials/article/more-reads.html'   %}
+
+            </div>
+            <div class="col-lg-4">
+
+              {% include '_partials/article/more-reads-sidebar.html'   %}
+
+            </div>
+        </div>    
 
       </div>
     </div>
