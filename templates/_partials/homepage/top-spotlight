@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col col1">Column 1</div>
+    
+    <div class="col col2">Column 2</div>
+    
+    <div class="col col3">Column 3</div>
+    
+    <div class="col col4">Column 4</div>
+    
+    <div class="col col5">
+         
+        <a href="#!" class="">
+          <div class="">
+            <div class="image"><figure><img src="img_avatar3.png" alt="" class=""></figure></div>
+            <div class="headline">We Quizzed Americans on Sexual Health: What It Says About the State of Sex Ed</div>
+          <div>
+        </a>
+
+    </div>
+    
+    
+    
+  </div>
+</div>
